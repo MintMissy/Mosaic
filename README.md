@@ -26,6 +26,7 @@
 - [ ] Color palette
 - [ ] Caricatured image
 - [ ] Save (prompt login if it isn't logged in)
+- [ ] Add color to palette
 
 # Images
 - [ ] Base 64 service
