@@ -1,12 +1,12 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-images-page',
-  templateUrl: './images-page.component.html',
-  styleUrls: ['./images-page.component.scss'],
+  selector: 'app-color-palette',
+  templateUrl: './color-palette.component.html',
+  styleUrls: ['./color-palette.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ImagesPageComponent implements OnInit {
+export class ColorPaletteComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mosaic-814a8": {
+      "hosting": {
+        "mosaic": [
+          "mosaic-814a8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mosaic-814a8"
+  }
+}

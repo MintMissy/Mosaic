@@ -1,15 +1,14 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-color-palette',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './color-palette.component.html',
-  styleUrls: ['./color-palette.component.scss'],
+  selector: 'app-mosaic-cell',
+  templateUrl: './mosaic-cell.component.html',
+  styleUrls: ['./mosaic-cell.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ColorPaletteComponent implements OnInit {
+export class MosaicCellComponent implements OnInit {
 
   constructor() { }
 

@@ -1,22 +1,26 @@
 # Bootstrap
-- [ ] Bootstrap colors configuration
-- [ ] Bootstrap buttons configuration
+
+- [x] Bootstrap colors configuration
 
 # Material Icons
-- [ ] Material Icons setup
-- [ ] Font setup
+
+- [x] Material Icons setup
+- [x] Font setup
 
 # NgRx
-- [ ] Base ngrx state setup
-- [ ] Base ngrx effects setup 
+
+- [x] Base ngrx state setup
+- [x] Base ngrx effects setup
 
 # Authentication
+
 - [ ] Login Dialog
 - [ ] Sign Up Dialog
 - [ ] Authentication service
 - [ ] Auth State
 
 # Mosaics
+
 - [ ] User mosaics list component
 - [ ] Mosaic preview page (with fork button)
 - [ ] Mosaic service
@@ -24,6 +28,7 @@
 - [ ] Comments, Likes, Views
 
 # Mosaic Editor
+
 - [ ] Board (4 variants -> 32x32, 64x64, 128x128, 256x256)
 - [ ] Painting system (with click and hover click)
 - [ ] Paint cell animation (scale up and down)
@@ -33,6 +38,7 @@
 - [ ] Add color to palette
 
 # Images
+
 - [ ] Base 64 service
 - [ ] Random Image Service
 - [ ] Random images list - users can select image
