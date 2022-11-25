@@ -2,6 +2,10 @@
 - [ ] Bootstrap colors configuration
 - [ ] Bootstrap buttons configuration
 
+# Material Icons
+- [ ] Material Icons setup
+- [ ] Font setup
+
 # NgRx
 - [ ] Base ngrx state setup
 - [ ] Base ngrx effects setup 

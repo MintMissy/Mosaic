@@ -3,11 +3,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "ng serve",
+      "name": "Brave Debug",
       "type": "pwa-chrome",
       "request": "launch",
-      "preLaunchTask": "npm: start",
-      "url": "http://localhost:4200/"
+      // "preLaunchTask": "npm: start",
+      "url": "http://localhost:4200/",
+      "runtimeExecutable": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
     },
     {
       "name": "ng test",
