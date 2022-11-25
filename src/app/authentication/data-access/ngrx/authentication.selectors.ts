@@ -7,4 +7,3 @@ export const selectAuthenticationState = createSelector(
   authentication,
   (state: AuthenticationState) => state.isLoggedIn
 );
-export const selectCurrentUser = createSelector(authentication, (state: AuthenticationState) => state.currentUser);
