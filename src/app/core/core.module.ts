@@ -5,11 +5,12 @@ import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 
 import { CommonModule } from '@angular/common';
 import { IconComponent } from './ui/icon/icon.component';
+import { NavbarComponent } from './ui/navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { environment } from 'src/environments/environment';
 
 @NgModule({
-  declarations: [IconComponent],
+  declarations: [IconComponent, NavbarComponent],
   imports: [
     CommonModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
@@ -17,7 +18,7 @@ import { environment } from 'src/environments/environment';
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
   ],
-  exports: [IconComponent],
+  exports: [IconComponent, NavbarComponent],
   providers: [],
 })
 export class CoreModule {}
