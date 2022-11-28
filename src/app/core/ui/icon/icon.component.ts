@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-icon',
-  template: `<span class="material-symbols-outlined"><ng-content></ng-content></span>`,
+  template: `<i [ngClass]="['bi', iconCode]"></i>`,
 })
-export class IconComponent {}
+export class IconComponent {
+  @Input() iconCode = 'bi-0-circle';
+}
