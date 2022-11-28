@@ -8,9 +8,8 @@ describe('MosaicCellComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ MosaicCellComponent ]
-    })
-    .compileComponents();
+      imports: [MosaicCellComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(MosaicCellComponent);
     component = fixture.componentInstance;

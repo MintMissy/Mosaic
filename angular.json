@@ -110,11 +110,23 @@
             "firebaseProject": "mosaic-814a8",
             "firebaseHostingSite": "mosaic-814a8"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "2b3073d6-57c3-45e5-a8bb-99cf925445d9"
+    "analytics": "2b3073d6-57c3-45e5-a8bb-99cf925445d9",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }

@@ -4,6 +4,4 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: AuthenticationModule,
 })
-export class UserResourceService {
-  constructor() {}
-}
+export class UserResourceService {}

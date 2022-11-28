@@ -8,9 +8,8 @@ describe('MosaicEditorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ MosaicEditorComponent ]
-    })
-    .compileComponents();
+      imports: [MosaicEditorComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(MosaicEditorComponent);
     component = fixture.componentInstance;

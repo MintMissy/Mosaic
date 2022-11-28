@@ -1,18 +1,9 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-
-import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-mosaic-card',
   templateUrl: './mosaic-card.component.html',
   styleUrls: ['./mosaic-card.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MosaicCardComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class MosaicCardComponent {}

@@ -4,6 +4,4 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: ImagesModule,
 })
-export class Base64Service {
-  constructor() {}
-}
+export class Base64Service {}

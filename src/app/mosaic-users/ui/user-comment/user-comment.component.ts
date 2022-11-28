@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-user-comment',
@@ -6,8 +6,4 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   styleUrls: ['./user-comment.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class UserCommentComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+export class UserCommentComponent {}

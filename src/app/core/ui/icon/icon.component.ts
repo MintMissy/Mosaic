@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'app-icon',
   template: `<span class="material-symbols-outlined"><ng-content></ng-content></span>`,
 })
-export class IconComponent {
-  constructor() {}
-}
+export class IconComponent {}

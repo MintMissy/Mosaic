@@ -2,9 +2,6 @@ import { Injectable } from '@angular/core';
 import { MosaicUsersModule } from '../mosaic-users.module';
 
 @Injectable({
-  providedIn: MosaicUsersModule
+  providedIn: MosaicUsersModule,
 })
-export class MosaicUserResourceService {
-
-  constructor() { }
-}
+export class MosaicUserResourceService {}

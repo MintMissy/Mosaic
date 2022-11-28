@@ -8,9 +8,8 @@ describe('MosaicCardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ MosaicCardComponent ]
-    })
-    .compileComponents();
+      imports: [MosaicCardComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(MosaicCardComponent);
     component = fixture.componentInstance;

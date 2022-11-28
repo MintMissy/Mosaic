@@ -6,12 +6,7 @@ import { MosaicEditorComponent } from './feature/mosaic-editor/mosaic-editor.com
 import { NgModule } from '@angular/core';
 
 @NgModule({
-  declarations: [
-    ColorPaletteComponent,
-    MosaicCardComponent,
-    MosaicCellComponent,
-    MosaicEditorComponent,
-  ],
+  declarations: [ColorPaletteComponent, MosaicCardComponent, MosaicCellComponent, MosaicEditorComponent],
   imports: [CommonModule],
   exports: [],
   providers: [],

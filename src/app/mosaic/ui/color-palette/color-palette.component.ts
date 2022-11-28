@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-color-palette',
@@ -6,8 +6,4 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   styleUrls: ['./color-palette.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ColorPaletteComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+export class ColorPaletteComponent {}

@@ -12,10 +12,10 @@ import { StoreModule } from '@ngrx/store';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthenticationModule,
-    CoreModule,
     StoreModule.forRoot({}),
     EffectsModule.forRoot([]),
+    CoreModule,
+    AuthenticationModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

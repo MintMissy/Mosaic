@@ -1,18 +1,9 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-
-import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-images-list',
   templateUrl: './images-list.component.html',
   styleUrls: ['./images-list.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ImagesListComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class ImagesListComponent {}
