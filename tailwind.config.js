@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: require('tailwindcss/colors').violet,
+        primary: require('tailwindcss/colors').indigo,
         secondary: require('tailwindcss/colors').fuchsia,
         warn: require('tailwindcss/colors').amber,
         error: require('tailwindcss/colors').rose,
