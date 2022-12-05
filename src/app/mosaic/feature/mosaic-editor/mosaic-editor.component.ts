@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MosaicEditorComponent {
-  color = '#111111';
+  color = '#ffffff';
 
   onSelectColor(color: string): void {
     this.color = color;
