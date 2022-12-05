@@ -1,8 +1,9 @@
-<h1 class="text-2xl font-black mt-8 mb-2">Color Palette</h1>
+<h1 class="text-2xl font-black mb-2">Color Palette</h1>
 <div class="flex flex-wrap gap-2">
   <app-color-cell
     *ngFor="let color of colors"
     [color]="color"
+    [selectedColor]="color === selectedColor"
     (selectColor)="selectColor.emit($event)"
   ></app-color-cell>
 </div>

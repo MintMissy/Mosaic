@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, HostBinding, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-color-cell',
@@ -7,6 +7,9 @@ import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from 
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ColorCellComponent {
-  @Input() color!: string;
+  @HostBinding('style.--tw-ring-color')
+  @Input()
+  color!: string;
+  @Input() selectedColor!: boolean;
   @Output() selectColor = new EventEmitter<string>();
 }

@@ -1,4 +1,8 @@
-<div>
-  <app-mosaic-board [selectedColor]="color"></app-mosaic-board>
-  <app-color-palette (selectColor)="onSelectColor($event)"></app-color-palette>
+<div class="flex gap-12">
+  <div class="w-6/12">
+    <app-mosaic-board [selectedColor]="color"></app-mosaic-board>
+  </div>
+  <div class="w-6/12">
+    <app-color-palette (selectColor)="onSelectColor($event)" [selectedColor]="color"></app-color-palette>
+  </div>
 </div>

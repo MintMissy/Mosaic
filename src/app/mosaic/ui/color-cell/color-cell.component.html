@@ -1,5 +1,6 @@
 <div
-  class="w-8 aspect-square rounded-full hover:scale-110 transition-colors duration-75 cursor-pointer"
-  [ngStyle]="{ backgroundColor: color }"
+  class="w-8 aspect-square hover:scale-110 transition-colors duration-75 cursor-pointer"
+  [ngClass]="selectedColor ? ['ring-2 ring-inherit ring-offset-2 ring-offset-dark-800'] : []"
+  [ngStyle]="{ backgroundColor: color, borderRadius: selectedColor ? '25%' : '100%' }"
   (click)="selectColor.emit(color)"
 ></div>
