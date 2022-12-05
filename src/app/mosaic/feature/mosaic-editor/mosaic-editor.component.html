@@ -1,8 +1,9 @@
 <div class="flex gap-12">
-  <div class="w-6/12">
+  <div class="w-[500px]">
     <app-mosaic-board [selectedColor]="color"></app-mosaic-board>
   </div>
   <div class="w-6/12">
     <app-color-palette (selectColor)="onSelectColor($event)" [selectedColor]="color"></app-color-palette>
+    <app-action-stats></app-action-stats>
   </div>
 </div>

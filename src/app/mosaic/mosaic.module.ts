@@ -7,9 +7,11 @@ import { MosaicEditorComponent } from './feature/mosaic-editor/mosaic-editor.com
 import { MosaicRoutingModule } from './mosaic-routing.module';
 import { NgModule } from '@angular/core';
 import { ColorCellComponent } from './ui/color-cell/color-cell.component';
+import { ActionStatsComponent } from './ui/action-stats/action-stats.component';
+import { ActionStatComponent } from './ui/action-stat/action-stat.component';
 
 @NgModule({
-  declarations: [ColorPaletteComponent, MosaicCardComponent, MosaicCellComponent, MosaicEditorComponent, MosaicBoardComponent, ColorCellComponent],
+  declarations: [ColorPaletteComponent, MosaicCardComponent, MosaicCellComponent, MosaicEditorComponent, MosaicBoardComponent, ColorCellComponent, ActionStatsComponent, ActionStatComponent],
   imports: [CommonModule, MosaicRoutingModule],
   exports: [],
   providers: [],
