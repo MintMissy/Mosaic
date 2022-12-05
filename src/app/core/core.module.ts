@@ -4,24 +4,25 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 
 import { CommonModule } from '@angular/common';
-import { IconComponent } from './ui/icon/icon.component';
 import { NavLinkComponent } from './ui/nav-link/nav-link.component';
 import { NavbarComponent } from './ui/navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared.module';
 import { environment } from 'src/environments/environment';
 
 @NgModule({
-  declarations: [IconComponent, NavbarComponent, NavLinkComponent],
+  declarations: [NavbarComponent, NavLinkComponent],
   imports: [
     CommonModule,
     RouterModule,
+    SharedModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
   ],
-  exports: [IconComponent, NavbarComponent],
+  exports: [NavbarComponent],
   providers: [],
 })
 export class CoreModule {}
