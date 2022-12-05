@@ -1,0 +1,6 @@
+<h1 class="text-2xl font-black mb-2">Mosaic Board</h1>
+<div class="flex flex-col gap-1">
+  <div class="flex gap-1" *ngFor="let row of range(rows)">
+    <app-mosaic-cell *ngFor="let column of range(columns)"></app-mosaic-cell>
+  </div>
+</div>

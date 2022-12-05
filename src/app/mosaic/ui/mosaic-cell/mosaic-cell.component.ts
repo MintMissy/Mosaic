@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-mosaic-cell',
@@ -6,4 +6,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrls: ['./mosaic-cell.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MosaicCellComponent {}
+export class MosaicCellComponent {
+  @Input() cellColor = '#ffffff';
+}

@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
 })
 export class IconComponent {
   @Input() iconCode = 'bi-0-circle';
-  @Input() size = 24;
+  @Input() size = 20;
 }

@@ -1,22 +1,15 @@
-<nav class="flex justify-between align-center px-4 py-3 bg-white dark:bg-dark-800">
-  <ul class="flex justify-center align-center gap-4 text-md">
-    <li>
-      <a
-        routerLink=""
-        class="text-xl font-black text-transparent bg-clip-text from-primary-400 to-secondary-500 bg-gradient-to-r"
-        >Mosaic</a
-      >
-    </li>
+<nav class="flex justify-between align-center px-6 py-4 border-b border-gray-800">
+  <a routerLink="" class="text-xl font-bold text-white tracking-wide">Mosaic</a>
+  <ul class="flex align-center gap-5">
     <li><app-nav-link routerLink="home">Home</app-nav-link></li>
     <li><app-nav-link routerLink="home">List</app-nav-link></li>
     <li><app-nav-link routerLink="home">Create</app-nav-link></li>
   </ul>
-  <div class="flex gap-4">
-    <a href="https://github.com/MintMissy"><app-icon iconCode="bi-github" [size]="20"></app-icon></a>
+  <div class="flex gap-5">
+    <a href="https://github.com/MintMissy"><app-icon iconCode="bi-github"></app-icon></a>
     <app-icon
       (click)="themeClick.emit()"
       [iconCode]="theme === 'light' ? 'bi-moon-fill' : 'bi-brightness-high-fill'"
-      [size]="20"
     ></app-icon>
   </div>
 </nav>
