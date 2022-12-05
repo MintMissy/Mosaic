@@ -1,4 +1,4 @@
 <div>
-  <app-mosaic-board></app-mosaic-board>
-  <app-color-palette></app-color-palette>
+  <app-mosaic-board [selectedColor]="color"></app-mosaic-board>
+  <app-color-palette (selectColor)="onSelectColor($event)"></app-color-palette>
 </div>

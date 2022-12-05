@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-color-palette',
@@ -6,4 +6,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrls: ['./color-palette.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ColorPaletteComponent {}
+export class ColorPaletteComponent {
+  @Output() selectColor = new EventEmitter<string>();
+  colors = ['#000000', '#ffffff', '#ff0000', '#00ff00', '#0000ff', '#ffff00', '#00ffff', '#ff00ff'];
+}
