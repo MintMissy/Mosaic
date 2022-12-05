@@ -1,5 +1,7 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
+import { Position } from '../../model/position.model';
+
 @Component({
   selector: 'app-mosaic-cell',
   templateUrl: './mosaic-cell.component.html',
@@ -8,4 +10,5 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 })
 export class MosaicCellComponent {
   @Input() cellColor = '#ffffff';
+  @Input() position!: Position;
 }
